@@ -20,3 +20,6 @@ Esse projeto foi feito com foco em:
 - Tailwind CSS
 - Vite
 
+## Imagem:
+
+<img width="300" height="417" alt="image" src="https://github.com/user-attachments/assets/d1ea8bd9-c503-47ec-a26f-44d58f254926" />
