@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-xs: 430px;
+}
+
+:root {
+    --corpo: #C4C4C4;
+    --borda: #818181;
+    --borda2: #4d4d4d;
+    --retbranco: #FFFFFF;
+    --botao: #D9D9D9;
+    --hoverbotao: #bebebe;
+    --on: #DE4C4C;
+    --sombra: 0px 0px 6px rgba(0, 0, 0, 0.404);
+    --hoveron: #da1a1a;
+    --soma: #EF5E2D;
+    --hoversoma: #ef5d2de7;
+    --tela: #00FFF2;
+
+    
+}
+
+body {
+    background: var(--corpo);
+}
+
+.num {
+    color: black;
+    font-size: 40px;
+    background: var(--botao);
+    box-shadow: var(--sombra);
+    border: 1px solid var(--borda2);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+@media screen and (max-width:640px) {
+    .num {
+        font-size: 32px;
+    }
+}
+
+.num:hover {
+    background-color: var(--hoverbotao);
+}
+
+.A2 {
+    font-size: 2px;
+}
